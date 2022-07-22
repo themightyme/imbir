@@ -1,0 +1,37 @@
+.cases {
+    height: 1000px;
+    padding: 100px 0;
+    background-color: #ffffff;
+    position: relative;
+
+    &__video {
+        margin-top: 80px;
+    }
+
+    .circle {
+        position: relative;
+        left: -1000px;
+        top: -1000px;
+        //z-index: 1;
+    }
+
+    button {
+        height: 500px;
+        top: 135px;
+    }
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../icons/arrow.png);
+    width: 39px;
+    height: 68px;
+    margin-top: 60px;
+    transform: rotate(180deg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../icons/arrow.png);
+    width: 39px;
+    height: 68px;
+    margin-top: 60px;
+}

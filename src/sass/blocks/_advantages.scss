@@ -1,0 +1,68 @@
+.advantages {
+    height: 730px;
+    background: url(../img/bg_advantages.png) center (center/cover) no-repeat;
+    padding: 100px 0;
+    font-family: 'Roboto';
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        //align-items: center;
+    }
+
+    &__icon {
+        width: 370px;
+        margin-top: 90px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #EB4E45;
+        border-bottom-left-radius: 57px;
+        border-bottom-right-radius: 57px;
+        border-top-left-radius: 57px;
+        border-top-right-radius: 57px;
+    }
+
+    &__icon_number {
+        height: 111px;
+        width: 111px;
+        background-color: #EB4E45;
+        border: 2px solid #EB4E45;
+        border-radius: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 112px;
+        text-transform: uppercase;
+        color: #F4F4F4;
+    }
+
+    &__icon_descr {
+        width: 240px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        margin-left: 20px;
+    }
+
+    .button {
+        margin-top: 75px;
+
+        &:hover {
+            background-color: #EB4E45;
+            color: #FFFFFF;
+            border: none;
+            transition: 0.2s all ease-in-out;
+            // transition: margin-right 2s ease-in-out .5s;
+        }
+    }
+
+}

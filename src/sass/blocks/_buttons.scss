@@ -1,0 +1,48 @@
+.button {
+    width: 230px;
+    height: 40px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000000;
+
+    // &_main {
+    //     width: 300px;
+    //     height: 50px;
+    //     font-size: 16px;
+    //     margin-top: 65px;
+    // }
+
+    // &_submit {
+    //     width: 100%;
+    //     height: 58px;
+    //     font-size: 16px;
+    // }
+
+    &__forwhom {
+        color: #ffffff;
+        background-color: #EB4E45;
+        border: 1px solid white;
+    }
+
+    &__advantages {
+        color: #000000;
+        background-color: #f4f4f4;
+        border: 1px solid #000000;
+    }
+
+    &__success {
+        color: #000000;
+        background-color: #f4f4f4;
+        border: 1px solid #000000;
+    }
+
+    &__qa {
+        color: #000000;
+        background-color: #f4f4f4;
+        border: 1px solid #000000;
+    }
+}

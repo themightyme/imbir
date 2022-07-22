@@ -1,0 +1,104 @@
+header {
+    height: 100px;
+    width: 100%;
+    //margin-bottom: 100px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans', sans-serif;
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    &__logo {
+        padding: 0;
+
+        &:last-child img {
+            transform: translateY(-6%)
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        transform: translateY(+15%)
+    }
+
+    &__phone {
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #000000;
+        text-decoration: none;
+
+        &:hover {
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+
+    &__slogan {
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: lowercase;
+        color: rgba(0, 0, 0, 0.50);
+
+        &:before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            width: 4px;
+            height: 4px;
+            background-color: #79D21F;
+            margin-right: 5px;
+            border-radius: 100%;
+        }
+
+    }
+
+    &__menu_item {
+        padding-top: 20px;
+        padding-right: 30px;
+
+        &:last-child a {
+            padding: 5px;
+            background-color: #EB4E45;
+
+            &:hover {
+                border: none;
+                color: #f4f4f4;
+                transition: 0.2s color ease-in-out;
+            }
+        }
+
+        a {
+            font-family: 'Noto Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #000000;
+            //transition: 0.3s all ease-in-out;
+
+            &:hover {
+                border-bottom: 1px solid black;
+                //transition: 0.8s margin-right ease-in-out;
+            }
+        }
+    }
+}

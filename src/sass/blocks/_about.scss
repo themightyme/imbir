@@ -1,0 +1,22 @@
+.about {
+    position: relative;
+    padding: 100px 0;
+    min-height: 435px;
+    background-color: #f4f4f4;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+
+    &__icon {
+        width: 30%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__descr {
+        margin-left: 10px;
+    }
+}

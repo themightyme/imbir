@@ -1,0 +1,33 @@
+.aboutUs {
+    position: relative;
+    padding: 100px 0;
+    height: 530px;
+    background-color: #ffffff;
+
+    &__fishes {
+        position: relative;
+    }
+
+    &__fish1 {
+        display: inline-block;
+        position: relative;
+        left: -300px;
+        top: -600px;
+        //z-index: 1;
+    }
+
+    &__fish2 {
+        display: inline-block;
+        position: relative;
+        left: -200px;
+        top: -500px;
+        //z-index: 1;
+    }
+
+    .circle__aboutUs {
+        position: relative;
+        left: 1200px;
+        top: -570px;
+        //z-index: 1;
+    }
+}

@@ -1,0 +1,26 @@
+.circle {
+    width: 912px;
+    height: 912px;
+    background: #EB4E45;
+    border-radius: 100%;
+
+    &__cases {
+        width: 860px;
+        height: 860px;
+    }
+
+    &__success1 {
+        width: 280px;
+        height: 280px;
+    }
+
+    &__success2 {
+        width: 300px;
+        height: 300px;
+    }
+
+    &__aboutUs {
+        width: 275px;
+        height: 275px;
+    }
+}
