@@ -20,6 +20,10 @@ body {
     position: relative;
 }
 
+section {
+    overflow: hidden;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -35,4 +39,12 @@ body {
     opacity: 1;
     transition: all 1.5s;
     transform: translateY(0%);
+}
+
+.hidden {
+    display: none;
+}
+
+.font-weight-bold {
+    font-weight: 700;
 }

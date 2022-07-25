@@ -8,6 +8,8 @@
     &__dots {
         width: 90px;
         margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         justify-content: space-between;
 
@@ -16,6 +18,11 @@
             height: 12px;
             border-radius: 100%;
             background-color: #ffffff;
+
+            &.active {
+                background-color: blue;
+            }
+
         }
     }
 
@@ -35,12 +42,18 @@
         font-weight: 700;
         font-size: 32px;
         margin-top: 15px;
+        text-align: center;
         text-transform: uppercase;
     }
 
     &__answers {
         display: flex;
         justify-content: space-between;
+
+        > div {
+            margin: 20px;
+        }
+
     }
 
     &__answer {
@@ -56,6 +69,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    fieldset {
+        display: none;
+        /*visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.5s, opacity 0.5s;*/
+
+        &.active {
+            display: block;
+            /* visibility: visible;
+             opacity: 1;*/
+        }
+
+
     }
 
 

@@ -10,487 +10,557 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Imbir</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="header">
-                <div class="header__logo">
-                    <a href="#"><img src="img/salmon_logo.png" alt="salmon logo"></a>
+<header>
+    <div class="container">
+        <div class="header">
+            <div class="header__logo">
+                <a href="#"><img src="img/salmon_logo.png" alt="salmon logo"></a>
+            </div>
+            <nav>
+                <ul class="header__menu">
+                    <li class="header__menu_item"><a href="#about">о спецпроекте</a></li>
+                    <li class="header__menu_item"><a href="#cases">кейсы</a></li>
+                    <li class="header__menu_item"><a href="#qa">вопросы</a></li>
+                    <li class="header__menu_item"><a href="#aboutUs">о нас</a></li>
+                    <li class="header__menu_item"><a data-modal="order" href="#">заказать спецпроект</a></li>
+                </ul>
+            </nav>
+            <div class="header__contacts">
+                <a href="tel:+375445417227" class="header__phone">+375 44 541 72 27</a>
+                <div class="header__slogan">мы на связи</div>
+            </div>
+            <div class="header__logo ">
+                <a href="#"><img src="img/imbir_logo.png" alt="imbir logo"></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="promo">
+    <div class="container">
+        <!-- <div class="promo__wrapper"> -->
+        <h1 class="promo__header">Мы создаем и реализовываем продающие рекламные проекты, нативную рекламу </h1>
+        <h2 class="promo__subheader">Мы буквально окружены рекламой и воспринимаем ее частью ландшафта. <br>
+            Что делать рекламодателю, когда прямая реклама больше не работает? <br>
+            Необычный подход к продвижению способен привлечь внимание и вовлечь потребителя.
+        </h2>
+        <button class="button promo__button"><a href="#test">кому нужен спецпроект</a></button>
+        <div class="circle promo__circle element-animation"></div>
+        <!-- </div> -->
+        <!-- <div class="circle promo__circle"></div>
+        <div class="promo__image"><img src="img/train.png" alt="fish-train"></div>-->
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="title">
+            <div class="title__main">что такое спецпроект</div>
+            <div class="title__descr">Спецпроект - новый вид яркой, нативной, вовлекающей рекламы
+                с идеальным сценарием под каждый бизнес для взаимодействия пользователя с продуктом.
+            </div>
+        </div>
+        <div class="about__wrapper">
+            <div class="about__icon"><img src="icons/mechanic.png" alt="mechanic">
+                <div class="about__descr">
+                    Уникальные механики взаимодействия с
+                    аудиторией
                 </div>
-                <nav>
-                    <ul class="header__menu">
-                        <li class="header__menu_item"><a href="#about">о спецпроекте</a></li>
-                        <li class="header__menu_item"><a href="#cases">кейсы</a></li>
-                        <li class="header__menu_item"><a href="#qa">вопросы</a></li>
-                        <li class="header__menu_item"><a href="#aboutUs">о нас</a></li>
-                        <li class="header__menu_item"><a data-modal="order" href="#">заказать спецпроект</a></li>
-                    </ul>
-                </nav>
-                <div class="header__contacts">
-                    <a href="tel:+375445417227" class="header__phone">+375 44 541 72 27</a>
-                    <div class="header__slogan">мы на связи</div>
+            </div>
+            <div class="about__icon"><img src="icons/growth.png" alt="growth">
+                <div class="about__descr">
+                    Рост знания <br> и узнаваемости бренда
                 </div>
-                <div class="header__logo ">
-                    <a href="#"><img src="img/imbir_logo.png" alt="imbir logo"></a>
+            </div>
+            <div class="about__icon"><img src="icons/native.png" alt="native ads">
+                <div class="about__descr">
+                    Нативный <br> формат рекламы
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</section>
 
-    <section class="promo">
-        <div class="container">
-            <!-- <div class="promo__wrapper"> -->
-            <h1 class="promo__header">Мы создаем и реализовываем продающие рекламные проекты, нативную рекламу </h1>
-            <h2 class="promo__subheader">Мы буквально окружены рекламой и воспринимаем ее частью ландшафта. <br>
-                Что делать рекламодателю, когда прямая реклама больше не работает? <br>
-                Необычный подход к продвижению способен привлечь внимание и вовлечь потребителя.
-            </h2>
-            <button class="button promo__button"><a href="#test">кому нужен спецпроект</a></button>
-            <div class="circle promo__circle element-animation"></div>
-            <!-- </div> -->
-            <!-- <div class="circle promo__circle"></div>
-            <div class="promo__image"><img src="img/train.png" alt="fish-train"></div>-->
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <div class="container">
-            <div class="title">
-                <div class="title__main">что такое спецпроект</div>
-                <div class="title__descr">Спецпроект - новый вид яркой, нативной, вовлекающей рекламы
-                    с идеальным сценарием под каждый бизнес для взаимодействия пользователя с продуктом.</div>
-            </div>
-            <div class="about__wrapper">
-                <div class="about__icon"><img src="icons/mechanic.png" alt="mechanic">
-                    <div class="about__descr">
-                        Уникальные механики взаимодействия с
-                        аудиторией
-                    </div>
-                </div>
-                <div class="about__icon"><img src="icons/growth.png" alt="growth">
-                    <div class="about__descr">
-                        Рост знания <br> и узнаваемости бренда
-                    </div>
-                </div>
-                <div class="about__icon"><img src="icons/native.png" alt="native ads">
-                    <div class="about__descr">
-                        Нативный <br> формат рекламы
-                    </div>
-                </div>
+<section class="forwhom">
+    <div class="container">
+        <div class="title title__forwhom">
+            <div class="title__main">кому подойдёт спецпроект</div>
+            <div class="title__descr">Мы разработаем идеи и концепции рекламной кампании (спецпроекта) для
+                брендов крупного и среднего сегмента. Пройдите небольшой тест и определите, подходит ли вам
+                спецпроект.
             </div>
         </div>
-    </section>
+        <button class="button button__forwhom"><a href="#test">пройди тест и узнай</a></button>
+    </div>
+</section>
 
-    <section class="forwhom">
-        <div class="container">
-            <div class="title title__forwhom">
-                <div class="title__main">кому подойдёт спецпроект</div>
-                <div class="title__descr">Мы разработаем идеи и концепции рекламной кампании (спецпроекта) для
-                    брендов крупного и среднего сегмента. Пройдите небольшой тест и определите, подходит ли вам
-                    спецпроект.</div>
+<section class="advantages">
+    <div class="container">
+        <div class="title title__advantages">
+            <div class="title__main">Преимущества</div>
+            <div class="title__descr">Мы точно попадаем в цели бизнеса и знаем как создать эффективный рекламный
+                проект.
             </div>
-            <button class="button button__forwhom"><a href="#test">пройди тест и узнай</a></button>
         </div>
-    </section>
-
-    <section class="advantages">
-        <div class="container">
-            <div class="title title__advantages">
-                <div class="title__main">Преимущества</div>
-                <div class="title__descr">Мы точно попадаем в цели бизнеса и знаем как создать эффективный рекламный
-                    проект.</div>
-            </div>
-            <div class="advantages__wrapper">
-                <div class="advantages__icon">
-                    <div class="advantages__icon_number">1</div>
-                    <div class="advantages__icon_descr">
-                        Поможем выстроить длительную коммуникацию <br> с брендом
-                    </div>
-                </div>
-                <div class="advantages__icon">
-                    <div class="advantages__icon_number">2</div>
-                    <div class="advantages__icon_descr">
-                        Создадим <br>
-                        запоминающуюся рекламу, <br> которая вовлекает
-                    </div>
-                </div>
-                <div class="advantages__icon">
-                    <div class="advantages__icon_number">3</div>
-                    <div class="advantages__icon_descr">
-                        Превратим потенциальных покупателей в реальных
-                    </div>
-                </div>
-                <div class="advantages__icon">
-                    <div class="advantages__icon_number">4</div>
-                    <div class="advantages__icon_descr">
-                        Увеличим охват <br>
-                        качественной целевой <br> аудитории
-                    </div>
-                </div>
-                <div class="advantages__icon">
-                    <div class="advantages__icon_number">5</div>
-                    <div class="advantages__icon_descr">
-                        Детально изучим <br>
-                        ваш бизнес и предложим <br>
-                        нестандартную рекламу
-                    </div>
+        <div class="advantages__wrapper">
+            <div class="advantages__icon">
+                <div class="advantages__icon_number">1</div>
+                <div class="advantages__icon_descr">
+                    Поможем выстроить длительную коммуникацию <br> с брендом
                 </div>
             </div>
-            <button data-modal="order" class="button button__advantages">заказать спецпроект</button>
+            <div class="advantages__icon">
+                <div class="advantages__icon_number">2</div>
+                <div class="advantages__icon_descr">
+                    Создадим <br>
+                    запоминающуюся рекламу, <br> которая вовлекает
+                </div>
+            </div>
+            <div class="advantages__icon">
+                <div class="advantages__icon_number">3</div>
+                <div class="advantages__icon_descr">
+                    Превратим потенциальных покупателей в реальных
+                </div>
+            </div>
+            <div class="advantages__icon">
+                <div class="advantages__icon_number">4</div>
+                <div class="advantages__icon_descr">
+                    Увеличим охват <br>
+                    качественной целевой <br> аудитории
+                </div>
+            </div>
+            <div class="advantages__icon">
+                <div class="advantages__icon_number">5</div>
+                <div class="advantages__icon_descr">
+                    Детально изучим <br>
+                    ваш бизнес и предложим <br>
+                    нестандартную рекламу
+                </div>
+            </div>
         </div>
-    </section>
+        <button data-modal="order" class="button button__advantages">заказать спецпроект</button>
+    </div>
+</section>
 
-    <section class="cases" id="cases">
-        <div class="container">
-            <div class="title title__cases">
-                <div class="title__main">кейсы</div>
-                <div class="title__descr">Каждый проект – уникальное решение. Хорошо, когда есть примеры:</div>
-            </div>
-            <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
+<section class="cases" id="cases">
+    <div class="container">
+        <div class="title title__cases">
+            <div class="title__main">кейсы</div>
+            <div class="title__descr">Каждый проект – уникальное решение. Хорошо, когда есть примеры:</div>
+        </div>
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
 
-                    <div class="carousel-item active">
-                        <iframe class="cases__video" width="1200" height="675"
+                <div class="carousel-item active">
+                    <iframe class="cases__video" width="1200" height="675"
                             src="https://www.youtube.com/embed/4psLIcsORrc" title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
-                        </iframe>
-                    </div>
+                    </iframe>
+                </div>
 
-                    <div class="carousel-item">
-                        <iframe class="cases__video" width="1200" height="675"
+                <div class="carousel-item">
+                    <iframe class="cases__video" width="1200" height="675"
                             src="https://www.youtube.com/embed/2c8J80CFTN4" title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
-                    </div>
+                </div>
 
-                    <div class="carousel-item">
-                        <iframe class="cases__video" width="1200" height="675"
+                <div class="carousel-item">
+                    <iframe class="cases__video" width="1200" height="675"
                             src="https://www.youtube.com/embed/ruXCngVjBSg" title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
-                    </div>
-
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselControls"
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            <div class="circle circle__cases"></div>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </section>
+        <div class="circle circle__cases"></div>
+    </div>
+</section>
 
-    <section class="success">
-        <div class="container">
-            <div class="title title__success">
-                <div class="title__main">как измерить успешность спецпроекта</div>
-                <div class="title__descr"></div>
+<section class="success">
+    <div class="container">
+        <div class="title title__success">
+            <div class="title__main">как измерить успешность спецпроекта</div>
+            <div class="title__descr"></div>
+        </div>
+        <div class="success__frames">
+            <div class="success__frame">
+                <div class="success__name">ETR</div>
+                <div class="success__descr">Вовлеченные пользователи</div>
             </div>
-            <div class="success__frames">
-                <div class="success__frame">
-                    <div class="success__name">ETR</div>
-                    <div class="success__descr">Вовлеченные пользователи</div>
-                </div>
-                <div class="success__frame">
-                    <div class="success__name">CR</div>
-                    <div class="success__descr">Целевые действия на сайте</div>
-                </div>
-                <div class="success__frame">
-                    <div class="success__name">ROI</div>
-                    <div class="success__descr">Продажи</div>
-                </div>
-                <div class="success__frame">
-                    <div class="success__name">CTR</div>
-                    <div class="success__descr">Переходы на сайт</div>
-                </div>
-                <div class="success__frame">
-                    <div class="success__name">Reach TA</div>
-                    <div class="success__descr">Охват целевой аудитории</div>
-                </div>
-                <div class="success__frame">
-                    <div class="success__name">VTR</div>
-                    <div class="success__descr">количество просмотров </div>
-                </div>
+            <div class="success__frame">
+                <div class="success__name">CR</div>
+                <div class="success__descr">Целевые действия на сайте</div>
             </div>
-            <button data-modal="order" class="button button__success">заказать спецпроект</button>
-            <div class="circle circle__success1 element-animation"></div>
-            <div class="circle circle__success2"></div>
-            <div class="success__fishes">
-                <div class="success__fish1 element-animation"><img src="img/fish21.png" alt=""></div>
-                <div class="success__fish2 element-animation"><img src="img/fish22.png" alt=""></div>
-                <div class="success__fish3 element-animation"><img src="img/fish23.png" alt=""></div>
+            <div class="success__frame">
+                <div class="success__name">ROI</div>
+                <div class="success__descr">Продажи</div>
+            </div>
+            <div class="success__frame">
+                <div class="success__name">CTR</div>
+                <div class="success__descr">Переходы на сайт</div>
+            </div>
+            <div class="success__frame">
+                <div class="success__name">Reach TA</div>
+                <div class="success__descr">Охват целевой аудитории</div>
+            </div>
+            <div class="success__frame">
+                <div class="success__name">VTR</div>
+                <div class="success__descr">количество просмотров</div>
             </div>
         </div>
-    </section>
-
-    <section class="test" id="test">
-        <div class="container">
-            <div class="title title__test">
-                <div class="title__main">подходит ли вам спецпроект</div>
-                <div class="title__descr">Ответьте на 3 коротких вопроса, чтобы это узнать</div>
-            </div>
-            <div class="test__wrapper">
-                <div class="test__number">
-                    вопрос №1
-                </div>
-                <div class="test__question">
-                    Что планируете продвигать?
-                </div>
-                <div class="test__answers">
-                    <div class="test__answer">
-                        новый бренд
-                    </div>
-                    <div class="test__answer">
-                        известный продукт
-                    </div>
-                </div>
-                <div class="test__dots">
-                    <div class="test__dots_dot"></div>
-                    <div class="test__dots_dot"></div>
-                    <div class="test__dots_dot"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="qa" id="qa">
-        <div class="container">
-            <div class="title title__success">
-                <div class="title__main">вопросы</div>
-                <div class="title__descr"></div>
-            </div>
-
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Что такое рекламный спецпроект?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Рекламный спецпроект - это креативная, нестандартная реклама для повышения охвата, которая в
-                            игровой форме познакомит новых пользователей с брендом и напомнит о себе лояльным клиентам.
-                            Это эффективный способ отстроиться от конкурентов, которые используют обычную рекламу.
-                            Это возможность легко интегрировать новый продукт в естественную среду потребления,
-                            построить коммуникацию на потребительских инсайтах, рассказать о фишках самого продукта.
-
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Сколько стоит спецпроект?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            1 000 000$
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Спецпроект слишком дорого для меня, что делать?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            (ответ с информацией что можно заказать и отдельные услуги, только блогера или только
-                            контекстную рекламу и гиперссылками на сайты Imbir Digital и Salmon Graphics)
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Реклама у блогеров – спецпроект?
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Интеграция с блогерами – эффективный открытый канал донесения информации для решение
-                            бизнес-кейсов.
-                            Игровые механики и спец-проекты – уникальные интеграции, когда блогеры рассказывают о
-                            продукте, как о части своей жизни и мы встраиваемся в существующий контент.
-                            Наша задача получить максимально нативную и вовлекающую рекламную интеграцию (Youtube,
-                            TikTok, Instagram)
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            Сколько стоит реклама у блогера?
-                        </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            (ответ с вхождением ключевых слов "реклама у блоггеров беларусь", "рекламная интеграция")
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSix">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            Спецпроект у вас - это только онлайн?
-                        </button>
-                    </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita possimus ut doloremque
-                            repellat provident? Quae, corporis asperiores, facere nostrum nesciunt exercitationem
-                            consequatur ipsa ab illum cumque, ad autem quis ipsam?
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <button data-modal="question" class="button button__qa">задать вопрос</button>
-
-        </div>
-    </section>
-
-    <section class="aboutUs" id="aboutUs">
-        <div class="container">
-            <div class="title title__success">
-                <div class="title__main">о нас </div>
-                <div class="title__descr">Наше главное преимущество – комплексный подход. <br><br>
-
-                    <strong>Имбирь Маркетинг</strong> — это команда экспертов в Digital, которые детально проанализируют
-                    ваши рекламные
-                    кампании в интернете, соответствие трафика сайта вашей целевой аудитории и бизнес-задачам, а также
-                    объявления и ключевые слова. <br><br>
-
-                    Команда <strong>Salmon Graphics</strong> подскажет, как выстроить коммуникацию
-                    с потребителем и наиболее выигрышно использовать сообщение
-                    о вашем продукте.
-                </div>
-            </div>
-            <div class="circle circle__aboutUs"></div>
-            <div class="aboutUs__fishes">
-                <div class="aboutUs__fish1 element-animation"><img src="img/fish31.png" alt=""></div>
-                <div class="aboutUs__fish2 element-animation"><img src="img/fish32.png" alt=""></div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="footer">
-                <div class="footer__wrapper">
-                    <div class="footer__address">
-                        <div class="footer__address_header">Адреса агентств:</div>
-                        <div class="footer__address-salmon"> <a href="">Salmon Graphics</a><br>
-                            220073, Республика Беларусь, г. Минск, <br> ул. Ольшевского, 22, пом. 39, офиc 603<br>
-                            <span class="footer__unp">УНП 100843219</span>
-                        </div>
-                        <div class="footer__address-imbir"><a href="">Imbir Digital</a><br>
-                            220073, Республика Беларусь, г. Минск, <br> ул. Ольшевского, 22, 8 этаж, офис 46<br>
-                            <span class="footer__unp">УНП 191886846</span>
-                        </div>
-                        <a href="" class="footer__policy">политика конфиденциальности</a>
-                    </div>
-                    <div class="footer__contacts">
-                        <div class="footer__mail">
-                            <a href="mailto: v.lavrukova@imbirmarketing.by">v.lavrukova@imbirmarketing.by</a>
-                            <a href="mailto: info@salmongraphics.by">info@salmongraphics.by</a>
-                        </div>
-
-                        <div class="footer__phone"><a href="tel:+375445417227">+375 44 541 72 27</a></div>
-
-                        <div class="footer__logos">
-                            <a href=""><img src="img/salmon_logo.png" alt=""></a>
-                            <a href=""><img src="img/imbir_logo.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="footer__form">
-                        <form class="feed-form" action="#">
-                            <input name="user_name" required placeholder="как к вам обращаться?" type="text">
-                            <input name="user_link" required placeholder="как с вами связаться?" type="text">
-                            <!-- <input name="email" required placeholder="расскажите о своём проекте" type="text"> -->
-                            <textarea rows="6" cols="45" name="project_description"
-                                placeholder="расскажите о своём проекте"></textarea>
-                            <button class="button button_submit">отправить</button>
-                        </form>
-                        <div class="footer__form-warn">нажимая на кнопку, вы даёте согласие на обработку персональных
-                            данных и соглашаетесь с <a href="#">политикой конфиденциальности</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <div class="overlay">
-        <div class="modal-window" id="order">
-            <div class="modal-window__close">&times;</div>
-            <div class="modal-window__subtitle">заказать спецпроект</div>
-            <form class="feed-form" action="#">
-                <input name="user_name" required placeholder="Ваше имя" type="text">
-                <input name="user_phone" required placeholder="Ваш телефон" type="tel">
-                <input name="user_email" required placeholder="Ваш e-mail" type="e-mail">
-                <button class="button button_submit">оставить заявку</button>
-            </form>
-        </div>
-
-        <div class="modal-window modal-window_mini" id="thanks">
-            <div class="modal-window__close">&times;</div>
-            <div class="modal-window__subtitle">Спасибо <br> за вашу заявку!</div>
-            <div class="modal-window__descr">Наш менеджер свяжется с вами в ближайшее время.</div>
-        </div>
-
-        <div class="modal-window" id="question">
-            <div class="modal-window__close">&times;</div>
-            <div class="modal-window__subtitle">задать вопрос</div>
-            <form class="feed-form" action="#">
-                <input name="user_name" required placeholder="Ваше имя" type="text">
-                <input name="user_phone" required placeholder="Ваш телефон" type="tel">
-                <input name="user_email" required placeholder="Ваш e-mail" type="e-mail">
-                <textarea rows="6" cols="25" name="project_question" placeholder="Ваш вопрос"></textarea>
-                <button class="button button_submit">отправить</button>
-            </form>
+        <button data-modal="order" class="button button__success">заказать спецпроект</button>
+        <div class="circle circle__success1 element-animation"></div>
+        <div class="circle circle__success2"></div>
+        <div class="success__fishes">
+            <div class="success__fish1 element-animation"><img src="img/fish21.png" alt=""></div>
+            <div class="success__fish2 element-animation"><img src="img/fish22.png" alt=""></div>
+            <div class="success__fish3 element-animation"><img src="img/fish23.png" alt=""></div>
         </div>
     </div>
+</section>
+<section class="test" id="test">
+    <div class="container">
+        <form id="formQuickQuestionnaire">
+            <div>
+                <div class="title title__test">
+                    <div class="title__main">подходит ли вам спецпроект</div>
+                    <div class="title__descr">Ответьте на 3 коротких вопроса, чтобы это узнать</div>
+                </div>
+                <div id="questionsContainer">
+                    <fieldset id="questionnaireStep1" class="active">
+                        <div class="test__wrapper">
+                            <div class="test__number">
+                                вопрос №1
+                            </div>
+                            <div class="test__question">
+                                Что планируете продвигать?
+                            </div>
+                            <div class="test__answers">
+                                <div><input id="newBrand" type="radio" name="promotionObject" value="newBrand"/><label
+                                        for="newBrand">Новый бренд</label></div>
+                                <div><input id="famousBrand" type="radio" name="promotionObject"
+                                            value="famousBrand"/><label
+                                        for="famousBrand">Известный продукт</label></div>
+                                <!--   <div class="test__answer">
+                                       новый бренд
+                                   </div>
+                                   <div class="test__answer">
+                                       известный продукт
+                                   </div>-->
+                            </div>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script> -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/script.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+                        </div>
+                    </fieldset>
+                    <fieldset id="questionnaireStep2">
+                        <div class="test__wrapper">
+                            <div class="test__number">
+                                вопрос №2
+                            </div>
+                            <div class="test__question">
+                                Вы планируете:
+                            </div>
+                            <div class="test__answers">
+                                <div><input id="broadTargetAudienceCapture" type="radio" name="promotionPlans"
+                                            value="broadTargetAudienceCapture"/><label
+                                        for="broadTargetAudienceCapture">Широкий охват целевой аудитории;</label></div>
+                                <div><input id="communicationWithAudience" type="radio" name="promotionPlans"
+                                            value="communicationWithAudience"/><label
+                                        for="communicationWithAudience">Вовлечение аудитории в коммуникацию;</label>
+                                </div>
+                                <!--   <div class="test__answer">
+                                       новый бренд
+                                   </div>
+                                   <div class="test__answer">
+                                       известный продукт
+                                   </div>-->
+                            </div>
+
+                        </div>
+                    </fieldset>
+                    <fieldset id="questionnaireStep3">
+                        <div class="test__wrapper">
+                            <div class="test__number">
+                                вопрос №3
+                            </div>
+                            <div class="test__question">
+                                Планируете ли вы подарки для участников спецпроектов?
+                            </div>
+                            <div class="test__answers">
+                                <div><input id="presentsYes" type="radio" name="promotionPresents" value="presentsYes"/><label
+                                        for="presentsYes">Да</label></div>
+                                <div><input id="presentsNo" type="radio" name="promotionPresents"
+                                            value="presentsNo"/><label
+                                        for="presentsNo">Нет</label></div>
+                                <!--  <div class="test__answer">
+                                      новый бренд
+                                  </div>
+                                  <div class="test__answer">
+                                      известный продукт
+                                  </div>-->
+                            </div>
+                            <div class="buttons-row">
+                                <button type="button" id="buttonSendAnswers" disabled>Послать ответы</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="test__dots">
+                    <div class="test__dots_dot active" data-target="#questionnaireStep1"></div>
+                    <div class="test__dots_dot" data-target="#questionnaireStep2"></div>
+                    <div class="test__dots_dot" data-target="#questionnaireStep3"></div>
+                </div>
+            </div>
+            <div id="questionnaireResults"></div>
+        </form>
+    </div>
+</section>
+
+<section class="qa" id="qa">
+    <div class="container">
+        <div class="title title__success">
+            <div class="title__main">вопросы</div>
+            <div class="title__descr"></div>
+        </div>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Что такое рекламный спецпроект?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                     data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Рекламный спецпроект - это креативная, нестандартная реклама для повышения охвата, которая в
+                        игровой форме познакомит новых пользователей с брендом и напомнит о себе лояльным клиентам.
+                        Это эффективный способ отстроиться от конкурентов, которые используют обычную рекламу.
+                        Это возможность легко интегрировать новый продукт в естественную среду потребления,
+                        построить коммуникацию на потребительских инсайтах, рассказать о фишках самого продукта.
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Сколько стоит спецпроект?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                     data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        1 000 000$
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Спецпроект слишком дорого для меня, что делать?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                     data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        (ответ с информацией что можно заказать и отдельные услуги, только блогера или только
+                        контекстную рекламу и гиперссылками на сайты Imbir Digital и Salmon Graphics)
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Реклама у блогеров – спецпроект?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                     data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Интеграция с блогерами – эффективный открытый канал донесения информации для решение
+                        бизнес-кейсов.
+                        Игровые механики и спец-проекты – уникальные интеграции, когда блогеры рассказывают о
+                        продукте, как о части своей жизни и мы встраиваемся в существующий контент.
+                        Наша задача получить максимально нативную и вовлекающую рекламную интеграцию (Youtube,
+                        TikTok, Instagram)
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Сколько стоит реклама у блогера?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                     data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        (ответ с вхождением ключевых слов "реклама у блоггеров беларусь", "рекламная интеграция")
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Спецпроект у вас - это только онлайн?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                     data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita possimus ut doloremque
+                        repellat provident? Quae, corporis asperiores, facere nostrum nesciunt exercitationem
+                        consequatur ipsa ab illum cumque, ad autem quis ipsam?
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button data-modal="question" class="button button__qa">задать вопрос</button>
+
+    </div>
+</section>
+
+<section class="aboutUs" id="aboutUs">
+    <div class="container">
+        <div class="title title__success">
+            <div class="title__main">о нас</div>
+            <div class="title__descr">Наше главное преимущество – комплексный подход. <br><br>
+
+                <strong>Имбирь Маркетинг</strong> — это команда экспертов в Digital, которые детально проанализируют
+                ваши рекламные
+                кампании в интернете, соответствие трафика сайта вашей целевой аудитории и бизнес-задачам, а также
+                объявления и ключевые слова. <br><br>
+
+                Команда <strong>Salmon Graphics</strong> подскажет, как выстроить коммуникацию
+                с потребителем и наиболее выигрышно использовать сообщение
+                о вашем продукте.
+            </div>
+        </div>
+        <div class="circle circle__aboutUs"></div>
+        <div class="aboutUs__fishes">
+            <div class="aboutUs__fish1 element-animation"><img src="img/fish31.png" alt=""></div>
+            <div class="aboutUs__fish2 element-animation"><img src="img/fish32.png" alt=""></div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__address">
+                    <div class="footer__address_header">Адреса агентств:</div>
+                    <div class="footer__address-salmon"><a href="">Salmon Graphics</a><br>
+                        220073, Республика Беларусь, г. Минск, <br> ул. Ольшевского, 22, пом. 39, офиc 603<br>
+                        <span class="footer__unp">УНП 100843219</span>
+                    </div>
+                    <div class="footer__address-imbir"><a href="">Imbir Digital</a><br>
+                        220073, Республика Беларусь, г. Минск, <br> ул. Ольшевского, 22, 8 этаж, офис 46<br>
+                        <span class="footer__unp">УНП 191886846</span>
+                    </div>
+                    <a href="" class="footer__policy">политика конфиденциальности</a>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__mail">
+                        <a href="mailto: v.lavrukova@imbirmarketing.by">v.lavrukova@imbirmarketing.by</a>
+                        <a href="mailto: info@salmongraphics.by">info@salmongraphics.by</a>
+                    </div>
+
+                    <div class="footer__phone"><a href="tel:+375445417227">+375 44 541 72 27</a></div>
+
+                    <div class="footer__logos">
+                        <a href=""><img src="img/salmon_logo.png" alt=""></a>
+                        <a href=""><img src="img/imbir_logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer__form">
+                    <form class="feed-form" action="#">
+                        <input name="user_name" required placeholder="как к вам обращаться?" type="text">
+                        <input name="user_link" required placeholder="как с вами связаться?" type="text">
+                        <!-- <input name="email" required placeholder="расскажите о своём проекте" type="text"> -->
+                        <textarea rows="6" cols="45" name="project_description"
+                                  placeholder="расскажите о своём проекте"></textarea>
+                        <button class="button button_submit">отправить</button>
+                    </form>
+                    <div class="footer__form-warn">нажимая на кнопку, вы даёте согласие на обработку персональных
+                        данных и соглашаетесь с <a href="#">политикой конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="overlay">
+    <div class="modal-window" id="order">
+        <div class="modal-window__close">&times;</div>
+        <div class="modal-window__subtitle">заказать спецпроект</div>
+        <form class="feed-form" action="#">
+            <input name="user_name" required placeholder="Ваше имя" type="text">
+            <input name="user_phone" required placeholder="Ваш телефон" type="tel">
+            <input name="user_email" required placeholder="Ваш e-mail" type="email">
+            <button class="button button_submit">оставить заявку</button>
+        </form>
+    </div>
+
+    <div class="modal-window modal-window_mini" id="thanks">
+        <div class="modal-window__close">&times;</div>
+        <div class="modal-window__subtitle">Спасибо <br> за вашу заявку!</div>
+        <div class="modal-window__descr">Наш менеджер свяжется с вами в ближайшее время.</div>
+    </div>
+
+    <div class="modal-window" id="question">
+        <div class="modal-window__close">&times;</div>
+        <div class="modal-window__subtitle">задать вопрос</div>
+        <form class="feed-form" action="#">
+            <input name="user_name" required placeholder="Ваше имя" type="text">
+            <input name="user_phone" required placeholder="Ваш телефон" type="tel">
+            <input name="user_email" required placeholder="Ваш e-mail" type="e-mail">
+            <textarea rows="6" cols="25" name="project_question" placeholder="Ваш вопрос"></textarea>
+            <button class="button button_submit">отправить</button>
+        </form>
+    </div>
+</div>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script> -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/questionnaire.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 
