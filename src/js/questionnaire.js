@@ -5,12 +5,12 @@ class QuickQuestionnaire {
         this.dots = document.querySelectorAll('#formQuickQuestionnaire .test__dots_dot');
         this.buttonSubmit = document.querySelector('#formQuickQuestionnaire #buttonSendAnswers');
         this.resultTemplate_1 = `
-       <div>
-    <div class="text-center">Вам, скорее всего, нужна охватная рекламная кампания.
+<div class="result_one">
+    <div class="result_one__title">Вам, скорее всего, нужна охватная рекламная кампания.
         Мы готовы предложить вам разработку стратегии продвижения.
         Оставьте свои контакты, и мы с вами свяжемся.
     </div>
-    <div class="text-center">
+    <div class="result_one__form">
         <div>
             <input name="user_name" required placeholder="Ваше имя" type="text">
         </div>
@@ -23,38 +23,45 @@ class QuickQuestionnaire {
         <button class="button button_submit" type="button">Отправить заявку</button>
     </div>
 </div>
-        `;
+    `;
         this.resultTemplate_2 = `
-       <div class="text-center">
-    <div class="font-weight-bold">
+ <div class="result_two">
+    <div class="result_two__title">
         Поздравляем! Вам определенно подойдет спецпроект. Выберите ваш подарок:
     </div>
-    <div><input id="adsPlatformPromotion" type="radio" name="presentType" value="adsPlatformPromotion"/><label
-            for="adsPlatformPromotion">Продвижение в Яндексе на сумму 100 BYN
-    </label></div>
-    <div><input id="sloganDevelopment" type="radio" name="presentType" value="sloganDevelopment"/><label
-            for="sloganDevelopment">Разработка слогана
-    </label></div>
-    <div><input id="adsAdaptationForPlatforms" type="radio" name="presentType" value="adsAdaptationForPlatforms"/><label
-            for="adsAdaptationForPlatforms">Адаптация рекламных материалов согласно техническим требованиям площадок
-    </label></div>
-    <div><input id="adsCommunicationAudit" type="radio" name="presentType" value="adsCommunicationAudit"/><label
-            for="adsCommunicationAudit">Аудит рекламной коммуникации
-    </label></div>
+    <div>
+        <input id="adsPlatformPromotion" type="radio" name="presentType" value="adsPlatformPromotion"/>
+        <label for="adsPlatformPromotion">Продвижение в Яндексе на сумму 100 BYN</label>
+    </div>
+    <div>
+        <input id="sloganDevelopment" type="radio" name="presentType" value="sloganDevelopment"/>
+        <label for="sloganDevelopment">Разработка слогана</label>
+    </div>
+    <div>
+        <input id="adsAdaptationForPlatforms" type="radio" name="presentType" value="adsAdaptationForPlatforms"/>
+        <label for="adsAdaptationForPlatforms">Адаптация рекламных материалов согласно техническим требованиям площадок
+        </label>
+    </div>
+    <div><input id="adsCommunicationAudit" type="radio" name="presentType" value="adsCommunicationAudit"/>
+        <label for="adsCommunicationAudit">Аудит рекламной коммуникации</label>
+    </div>
     <div id="presentsFinalMessageContainer"></div>
 </div>
-        `;
+    `;
         this.resultTemplate_3 = `
-        <div class="text-center" id="finalMessage">
-    <div><p class="font-weight-bold">Отлично! Мы уже готовы с вами обсудить спецпроект!</p>
-        <p>Введите ваш номер и нажмите “Перезвоните мне”</p>
+<div class="result_final" id="finalMessage">
+    <div>
+        <p class="result_final__title">Отлично! Мы уже готовы с вами обсудить спецпроект! <br> 
+        Введите ваш номер и нажмите “Перезвоните мне”</p>
     </div>
-    <div><input type="tel" name="phoneNumber" placeholder="Введите номер телефона" id="phoneNumber"/></div>
+    <div>
+        <input type="tel" name="phoneNumber" placeholder="Введите номер телефона" id="phoneNumber"/>
+    </div>
     <div>
         <button type="button" id="sendNumber">Перезвоните мне</button>
     </div>
 </div>
-        `;
+    `;
     }
 
     addFinalMessage() {

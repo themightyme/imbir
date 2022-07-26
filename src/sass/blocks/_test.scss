@@ -7,7 +7,7 @@
 
     &__dots {
         width: 90px;
-        margin-top: 70px;
+        margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -20,7 +20,8 @@
             background-color: #ffffff;
 
             &.active {
-                background-color: blue;
+                background-color: #EB4E45;
+                border: 1px solid white;
             }
 
         }
@@ -50,26 +51,67 @@
         display: flex;
         justify-content: space-between;
 
-        > div {
-            margin: 20px;
+        div {
+            // margin: 40px 20px 20px 20px;
+            // width: 468px;
+            // height: 96px;
+            // background-color: #ffffff;
+            // border-radius: 50px;
+            // color: #000000;
+            // font-weight: 400;
+            // font-size: 24px;
+            // line-height: 30px;
+            // text-align: center;
+            // text-transform: uppercase;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+
+
+        }
+
+        label {
+            margin: 40px 20px 20px 20px;
+            width: 468px;
+            height: 96px;
+            background-color: #ffffff;
+            border-radius: 50px;
+            color: #000000;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #f4f4f4;
+            }
+        }
+
+        input[type="radio" i] {
+            display: none !important;
         }
 
     }
 
-    &__answer {
-        margin: 45px 50px 0 50px;
-        width: 468px;
-        height: 96px;
-        background-color: #ffffff;
-        border-radius: 50px;
-        color: #000000;
-        font-weight: 400;
-        font-size: 24px;
-        text-transform: uppercase;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    // &__answer {
+    //     margin: 45px 50px 0 50px;
+    //     width: 468px;
+    //     height: 96px;
+    //     background-color: #ffffff;
+    //     border-radius: 50px;
+    //     color: #000000;
+    //     font-weight: 400;
+    //     font-size: 24px;
+    //     text-transform: uppercase;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
 
     fieldset {
         display: none;
@@ -100,4 +142,8 @@
     //         // transition: margin-right 2s ease-in-out .5s;
     //     }
     // }
+}
+
+.font-weight-bold {
+    font-weight: 700;
 }
