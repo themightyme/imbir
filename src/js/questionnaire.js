@@ -3,7 +3,6 @@ class QuickQuestionnaire {
         this.form = document.getElementById('formQuickQuestionnaire');
         this.radioInputs = document.querySelectorAll('#formQuickQuestionnaire fieldset input[type=radio]');
         this.dots = document.querySelectorAll('#formQuickQuestionnaire .test__dots_dot');
-        this.buttonSubmit = document.querySelector('#formQuickQuestionnaire #buttonSendAnswers');
         this.resultTemplate_1 = `
 <div class="result_one">
     <div class="result_one__title">Вам, скорее всего, нужна охватная рекламная кампания.
@@ -104,7 +103,7 @@ class QuickQuestionnaire {
         dot.nextElementSibling && dot.nextElementSibling.classList.add('active');
         if (document.querySelectorAll('#formQuickQuestionnaire fieldset').length ===
             document.querySelectorAll('#formQuickQuestionnaire input[type=radio]:checked').length) {
-            this.buttonSubmit.removeAttribute('disabled');
+            this.onSubmitResults();
         }
     }
 
@@ -127,9 +126,6 @@ class QuickQuestionnaire {
                 this.changeFieldSet(event)
             });
         }
-        this.buttonSubmit.addEventListener('click', () => {
-            this.onSubmitResults();
-        });
     }
 
     init() {
